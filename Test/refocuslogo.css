@@ -1,0 +1,28 @@
+
+.wrap-image {
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    align-content: center;
+}
+.wrap-image::before {
+    content: "";
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid #f06f133e;
+    border-radius: 100% ;
+    transition: all 0.25s ease-out;
+}
+.wrap-image::before {
+    background-color: #f79651df;
+    top: -3px;
+    left: -2px;
+}
+
+.wrap-image:hover::before {
+    top: 15px;
+    left: 15px;
+}

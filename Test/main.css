@@ -1,3 +1,6 @@
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
 hr {
   border:none;
   height: 20px;
@@ -9,6 +12,7 @@ hr {
   margin: -50px auto 10px; 
 
 }
+
 h1
 {
   color: #f9781c;
