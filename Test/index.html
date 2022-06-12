@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="main.js">
+<link rel="stylesheet" href="box.css">
+
+</head>
+<body>
+    <center>
+    <h1>Project Rose</h1>
+</center>
+
+<hr>
+<center>
+    <div class="col-4">
+        <label:</label>
+        
+        <label class="custom-field">
+            <input type="text" name="dates" class="form-control pull-right" />
+      
+    </label>
+
+       <script>
+            $(function() {
+                $('input[name="dates"]').daterangepicker({ startDate: moment(), endDate: moment().add(2, 'day')});
+            })
+        </script>
+      
+    </div>
+     
+      </center>
+</body>
+</html>

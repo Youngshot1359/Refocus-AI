@@ -102,7 +102,7 @@ h1 span {
 .date-picker .dates .days .day:hover {
   background-color: #F3F3F3;
 
-
+  box-shadow:  0 0 1px 1px rgba(0,0,0,0.15);
 
   text-decoration: none;
   cursor: pointer;
