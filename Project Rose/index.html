@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Project Rose</title>
-    <link rel="stylesheet" href="css/styles.css">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Date Picker</title>
 
-  </head>
-  <body>
-    <h1>Hello</h1>
-    <hr>
-    
-    <div id="range"></div>
-<label>
-    Start
-    <input id="start" mbsc-input placeholder="Please select..." />
-</label>
-<label>
-    End
-    <input id="end" mbsc-input placeholder="Please select..." />
-</label>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<h1>Summary<span>Range</span>Picker</h1>
 
+	<div class="date-picker">
+		<div class="selected-date"></div>
 
-  </body>
+		<div class="dates">
+			<div class="month">
+				<div class="arrows prev-mth">&lt;</div>
+				<div class="mth"></div>
+				<div class="arrows next-mth">&gt;</div>
+			</div>
+
+			<div class="days"></div>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
 </html>
