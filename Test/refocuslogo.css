@@ -1,4 +1,14 @@
 
+.header{
+    color:#f79651df;
+
+}
+
+.header:hover
+{
+    color: rgba(0, 0, 0, 0.191);
+    transition: all 0.25s ease-out;
+}
 .wrap-image {
     position: relative;
 }
@@ -8,8 +18,9 @@ img{
 }
 .wrap-image::before {
     content: "";
-    width: 15%;
-    height: 100%;
+
+    width: 85px;
+    height: 85px;
     position: absolute;
     z-index: -1;
     border: 1px solid #f06f133e;
@@ -18,8 +29,8 @@ img{
 }
 .wrap-image::before {
     background-color: #f79651df;
-    top: -3px;
-    left: -2px;
+    top: -4px;
+    left: -4px;
 }
 
 .wrap-image:hover::before {
