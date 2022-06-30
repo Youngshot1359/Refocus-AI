@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+          height: 100%;
+        }
+      </style>
+</head>
+<body style="height: 100%">
+    <!-- this is where the embedding starts -->
+    <!-- the src URL is the public URL of the dashboard -->
+    
+    <!-- check share_dashboard function in redash_utils.py in combine-lambda for reference implementation (its just an API call)-->
+    <iframe
+      src="http://54.191.158.183/public/dashboards/r6ST6xlXex0zHVyxeGL9GSpS5vIdKSsQo8MgJj22?org_slug=default"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      style="overflow: hidden; height: 100%; width: 100%"
+    ></iframe>
+    <!-- this is where the embedding ends (yes its that easy) -->
+</body>
+</html>
