@@ -1,25 +1,52 @@
 body {
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-size: 16px;
+    height: 50vh;
+    
+   
+    font-size: 25px;
   }
 *, *::before, *::after {
     box-sizing: border-box;
+  }
+  .custom-field {
+    position: relative;
+    font-size: 14px;
+    border-top: 20px solisd transparent;
+    margin-bottom: 5px;
+    --field-padding: 12px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  padding-top: 20px;
+
+    
+  }
+
+  .custom-field .placeholder{
+    position: absolute;
+   left: calc(50%);
+    top: calc(50% + 1px);
+    transform: translate(-50%);
+    transition:
+    top 0.3 ease-in,
+    font-size 0.3 ease-in,
+    color 0.3 ease-in;
+    
+    
+  }
+  .custom-field input:focus + .placeholder{
+    top: 5px;
+    font-size: 10px;
+    color: #f06e13;
+     
   }
   
   .custom-field input {
     border-radius: 0;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background:
-      linear-gradient(90deg, #222, #222) center bottom/0 0.15em no-repeat,
-      linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
-      linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    
     transition: background-size 3s ease;
   }
   

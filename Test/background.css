@@ -1,0 +1,22 @@
+
+*{
+    padding:0;
+    border: 0;
+    margin: 0;
+}
+.margin
+{
+    margin: 20% 0;
+}
+
+.paralax 
+{
+    background: url() repeat fixed 100%;
+   
+
+}
+.paralax-inner{
+  
+    padding-bottom: 30%;
+}
+
